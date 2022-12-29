@@ -1,0 +1,3 @@
+D:/PROJEKTY/SOCKET_SKANER/cmake-build-debug/CMakeFiles/SOCKET_SKANER.dir
+D:/PROJEKTY/SOCKET_SKANER/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/PROJEKTY/SOCKET_SKANER/cmake-build-debug/CMakeFiles/rebuild_cache.dir
