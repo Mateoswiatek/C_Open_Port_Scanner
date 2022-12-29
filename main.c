@@ -28,6 +28,7 @@ int main() {
     }
     printf("adres: %s, min: %d, max: %d", adresIP, port_min, port_max);
 
+    
 // 1024 do 65_536 prywatne, 0-1024 przypisane
     //for(i;i<)
     return 0;
