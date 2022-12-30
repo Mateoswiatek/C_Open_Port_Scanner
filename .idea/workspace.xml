@@ -27,6 +27,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SOCKET_SKANER.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SOCKET_SKANER.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/SOCKET_SKANER.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SOCKET_SKANER.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2022_12_5_032022_12_5_03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2022_12_5_032022_12_5_03_I.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_O.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_O.txt_I.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +105,7 @@
       <workItem from="1672362496701" duration="215000" />
       <workItem from="1672362771529" duration="39000" />
       <workItem from="1672362811696" duration="161000" />
-      <workItem from="1672363096315" duration="5478000" />
+      <workItem from="1672363096315" duration="5647000" />
     </task>
     <servers />
   </component>

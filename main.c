@@ -33,8 +33,7 @@ int otwarty_port(char IP[15], int aktulany_port){
     status = connect(gniazdo, (struct sockaddr *) &ser, sizeof(ser)); // łączenie gniazdo1 krotszy czas oczekiwania
     closesocket(gniazdo);
     return status;
-} // zwraca 1 gdy port jest otwarty
-
+}
 
 int main() {
     char adresIP[15];
@@ -72,7 +71,7 @@ int main() {
     char godzina[80];
     time(& czas);
     data = localtime(& czas);
-    strftime( godzina, 80, "_%Y_%m_%w_%H", data ); // wyświetla podane elementy czasu
+    strftime( godzina, 80, "_%Y_%m_%w_%H_%M", data ); // wyświetla podane elementy czasu
     printf("godzina to: %s\n", godzina);
 
     char nazwa_pliku[150];
@@ -83,11 +82,8 @@ int main() {
     strcat(nazwa_pliku,"_Open.txt");
     printf("nazwa pliku: #%s#\n" ,nazwa_pliku);
 
-    //Otwarte=fopen("%s_%s%s\n", adresIP, godzina, "_Open.txt", "a");
+    Otwarte=fopen(nazwa_pliku, "a");
     //Inne=fopen(strcat(adresIP, "_I.txt"), "a");
-
-
-
 
     for(i=port_min;i<=port_max;i++){ // omijamy zamkniete porty
         status_portu=otwarty_port(adresIP, i);
