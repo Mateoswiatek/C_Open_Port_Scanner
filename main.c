@@ -72,16 +72,22 @@ int main() {
     char godzina[80];
     time(& czas);
     data = localtime(& czas);
-    strftime( godzina, 80, "%Y_%m_%w_%H", data ); // wyświetla podane elementy czasu
+    strftime( godzina, 80, "_%Y_%m_%w_%H", data ); // wyświetla podane elementy czasu
     printf("godzina to: %s\n", godzina);
 
+    char nazwa_pliku[150];
     FILE *Otwarte, *Inne;
     printf("%s_%s%s\n", adresIP, godzina, "_Open.txt");
-    //Otwarte=fopen(, "a");
+    strcat(nazwa_pliku, adresIP);
+    strcat(nazwa_pliku,godzina);
+    strcat(nazwa_pliku,"_Open.txt");
+    printf("nazwa pliku: #%s#\n" ,nazwa_pliku);
+
+    //Otwarte=fopen("%s_%s%s\n", adresIP, godzina, "_Open.txt", "a");
     //Inne=fopen(strcat(adresIP, "_I.txt"), "a");
 
 
-    
+
 
     for(i=port_min;i<=port_max;i++){ // omijamy zamkniete porty
         status_portu=otwarty_port(adresIP, i);
